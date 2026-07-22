@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guillermo Luna Freytas | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="logo">Guillermo Luna</div>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header / Hero -->
+    <header class="hero">
+        <h1>Guillermo Luna Freytas</h1>
+        <h2>Estudiante de Ingeniería Informática en Sistemas de Información</h2>
+        <p>Machine Learning & Data | Desarrollo Full-Stack & DevOps | Ciberseguridad</p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+            <a href="assets/cv.pdf" target="_blank" class="btn btn-secondary">Descargar CV</a>
+        </div>
+    </header>
+
+    <!-- Sobre Mí -->
+    <section id="about" class="section">
+        <h2>Sobre Mí</h2>
+        <p>
+            Estudiante de Grado en Ingeniería Informática en la Universidad Pablo de Olavide (Sevilla). 
+            He realizado una estancia Erasmus+ en la HZ University of Applied Sciences (Países Bajos), 
+            desarrollando soluciones reales en entornos internacionales. Apasionado por la inteligencia artificial, 
+            el desarrollo web moderno y la ciberseguridad.
+        </p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects" class="section">
+        <h2>Proyectos Destacados</h2>
+        <div class="projects-grid">
+            
+            <!-- Proyecto TFG -->
+            <div class="project-card">
+                <h3>TFG: Incertidumbre en Modelos Predictivos</h3>
+                <p>Análisis del comportamiento de estrategias de ML para mitigar la incertidumbre en espacios de alta dimensionalidad.</p>
+                <div class="tags"><span>Python</span><span>Machine Learning</span><span>Deep Learning</span></div>
+            </div>
+
+            <!-- Proyecto Mesa Maestra -->
+            <div class="project-card">
+                <h3>Mesa Maestra</h3>
+                <p>Plataforma web para gestión de campañas TTRPG. Implementación de RBAC, integración de API Open5e y despliegue contenedorizado.</p>
+                <div class="tags"><span>Django</span><span>PostgreSQL</span><span>Docker</span><span>Nginx</span></div>
+                <a href="https://github.com/IriamuSZ/Mesa-Maestra" target="_blank" class="project-link"><i class="fab fa-github"></i> Ver Código</a>
+            </div>
+
+            <!-- Proyecto Juicy Forest -->
+            <div class="project-card">
+                <h3>Juicy Forest (Erasmus+)</h3>
+                <p>Plataforma participativa desarrollada para clientes reales. Diseño e implementación integral del módulo de tareas (Tasks feature).</p>
+                <div class="tags"><span>SvelteKit</span><span>TypeScript</span><span>Express</span><span>MongoDB</span></div>
+                <a href="https://github.com/Juicy-Forest" target="_blank" class="project-link"><i class="fab fa-github"></i> Ver Código</a>
+            </div>
+
+            <!-- Proyecto Quiebra Polonia -->
+            <div class="project-card">
+                <h3>Predicción de Quiebra Empresarial</h3>
+                <p>Modelo predictivo end-to-end (CRISP-DM) con datasets de 64 atributos para la detección temprana de quiebras en el mercado polaco.</p>
+                <div class="tags"><span>KNIME</span><span>Data Science</span><span>JavaScript</span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Habilidades y Certificaciones -->
+    <section id="skills" class="section">
+        <h2>Áreas de Especialización</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class="fas fa-brain"></i>
+                <h3>Data & Machine Learning</h3>
+                <p>Python, KNIME, CRISP-DM, Modelos de Clasificación y Ensamblados.</p>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-code"></i>
+                <h3>Desarrollo Web & DevOps</h3>
+                <p>Django, SvelteKit, Express.js, PostgreSQL, MongoDB, Docker, Nginx.</p>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Ciberseguridad</h3>
+                <p>Hacking Ético, Análisis de Vulnerabilidades, Seguridad Web y entornos Linux.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="section">
+        <h2>Contacto</h2>
+        <p>¿Tienes un proyecto o propuesta interesante? ¡Hablemos!</p>
+        <div class="contact-links">
+            <a href="mailto:gluna.freytas@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/guillermo-luna-freytas/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/tu-usuario" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Guillermo Luna Freytas. Alojado en GitHub Pages.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
